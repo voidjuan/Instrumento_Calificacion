@@ -1,0 +1,68 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototipo de Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header" class="boton">
+        <button id="menu-btn" onclick="toggleSidebar()">☰</button>
+        <h1>HEADER</h1>
+        <div id="user-info">
+            <img src="images/WhatsApp Image 2024-08-14 at 10.25.16 AM (2) (1).jpeg" class="imagen">
+            <p>Juan Esteban Lopez Calle</p>
+            <p>14/08/2024</p>
+        </div>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">&#10005;</button>
+        <a href="#" onclick="toggleDropdown('mac')">Sistemas Operativos Mac</a>
+        <div id="mac-dropdown" class="dropdown">
+            <a href="#" onclick="loadContent('ventura')">Mac OS 13 Ventura</a>
+            <a href="#" onclick="loadContent('monterrey')">Mac OS 12 Monterrey</a>
+            <a href="#" onclick="loadContent('big_sur')">Mac OS 11 Big Sur</a>
+            <a href="#" onclick="loadContent('panther')">Mac OS X 10.3 "Panther"</a>
+            <a href="#" onclick="loadContent('cheetah')">Mac OS X 10.0 "Cheetah"</a>
+            <a href="#" onclick="loadContent('mac_8')">Mac OS 8</a>
+            <a href="#" onclick="loadContent('sistema_7')">Sistema 7</a>
+            <a href="#" onclick="loadContent('sistema_4')">Sistema 4</a>
+            <a href="#" onclick="loadContent('sistema_1')">Sistema 1</a>
+        </div>
+        <a href="#" onclick="toggleDropdown('windows_hogar')">Windows hogar</a>
+        <div id="windows_hogar-dropdown" class="dropdown">
+            <a href="#" onclick="loadContent('windows_11')">Windows 11</a>
+            <a href="#" onclick="loadContent('windows_10')">Windows 10</a>
+            <a href="#" onclick="loadContent('windows_8')">Windows 8</a>
+            <a href="#" onclick="loadContent('vista')">Windows Vista</a>
+            <a href="#" onclick="loadContent('xp')">Windows XP</a>
+            <a href="#" onclick="loadContent('windows_98')">Windows 98</a>
+            <a href="#" onclick="loadContent('windows_95')">Windows 95</a>
+        </div>
+        <a href="#" onclick="toggleDropdown('windows_server')">Windows Server</a>
+        <div id="windows_server-dropdown" class="dropdown">
+            <a href="#" onclick="loadContent('win_11_ent')">Windows 11 Enterprise</a>
+            <a href="#" onclick="loadContent('win_10_pro')">Windows 10 Pro</a>
+            <a href="#" onclick="loadContent('win_8_pro')">Windows 8 Pro</a>
+            <a href="#" onclick="loadContent('win_7_pro')">Windows 7 Professional</a>
+            <a href="#" onclick="loadContent('vista_bus')">Windows Vista Business</a>
+            <a href="#" onclick="loadContent('xp_pro')">Windows XP Professional</a>
+            <a href="#" onclick="loadContent('win_2000')">Windows 2000</a>
+        </div>
+    </div>
+
+    <div id="content">
+        <h2 id="system-name">Nombre sistema operativo</h2>
+        <p id="system-description">DESCRIPCIÓN DEL SISTEMA</p>
+        <div id="system-image">imagen</div>
+    </div>
+
+    <footer>
+        <p>Juan Esteban Lopez Calle</p>
+        <p>14/08/2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
