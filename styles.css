@@ -60,7 +60,12 @@ div.boton{
     margin-bottom: 10px;
 }
 
-
+.image{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 .sidebar a {
     color: white;
@@ -69,6 +74,10 @@ div.boton{
     padding: 5px 0;
     margin-bottom: 20px; 
     cursor: pointer;
+}
+
+a:hover{
+    background-color: black;
 }
 
 .dropdown {
@@ -93,5 +102,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: block;
+    position: static;
 }
