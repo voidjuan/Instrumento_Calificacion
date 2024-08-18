@@ -38,6 +38,9 @@ body {
     top: 0;
     height: 100%;
     transition: left 0.3s ease;
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: #b44b4b white; 
 }
 
 .sidebar.open {
@@ -90,4 +93,5 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    position: block;
 }
