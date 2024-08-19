@@ -159,6 +159,111 @@ function loadContent(system) {
             descriptionElement.innerText = 'La primera versión del sistema operativo para Macintosh, lanzada en 1984, que tenía escritorio, ventanas, iconos, menús y puntero de ratón. No existía la memoria virtual, por lo que no se podía trabajar en dos aplicaciones a la vez, y la papelera se vaciaba al reiniciar el ordenador. Tampoco permitía carpetas anidadas. System 1.1 añadió mejoras de velocidad y los cuadros de diálogo.';
             imageElement.innerHTML = '<img src="images/sistema_1.png" alt="Sistema 1" class="image">';
             break;
+        case 'version_1.0':
+            nameElement.innerText = 'MS-DOS 1.0';
+            descriptionElement.innerText = 'La primera edición, MS-DOS 1.0, fue presentada en 1982. La versión incluida en los PCs de IBM fue conocida como PC DOS. Soporta 16 KiB de memoria RAM, disquetes de 5,25 pulgadas de una sola cara de 160 KiB. 22 órdenes. Permite archivos con extensión .com y .exe. Incorpora el intérprete de órdenes COMMAND.COM';
+            imageElement.innerHTML = '<img src="images/version_1.0.png" alt="Sistema 1" class="image">';
+            break;
+        case 'version_1.1':
+            nameElement.innerText = 'MS-DOS 1.1';
+            descriptionElement.innerText = 'La versión 1.1 fue una actualización relativamente menor de DOS, lanzada junto con una computadora personal actualizada en mayo de 1982. La PC más nueva tenía unidades de disquete de doble cara; DOS simplemente duplicó la capacidad del disco utilizando ambos lados, pasando de 160 KB a 320 KB. Por supuesto, el propio DOS 1.1 todavía se enviaba en discos de 160 KB para que pudiera usarse en el modelo de PC anterior.';
+            imageElement.innerHTML = '<img src="images/version_1.1.png" alt="Sistema 1" class="image">';
+            break;
+        case 'version_1.25':
+            nameElement.innerText = 'MS-DOS 1.25';
+            descriptionElement.innerText = 'MS-DOS 1.25 se lanzó en abril de 1982 como la primera versión general para clientes OEM distintos de IBM, por lo que fue utilizado por todos los primeros fabricantes de clones. Algunos OEM etiquetaron su lanzamiento con diferentes números de versión (por ejemplo, COMPAQ), pero todos se basan en la versión 1.25.';
+            imageElement.innerHTML = '<img src="images/version_1.25.png" alt="Sistema 1" class="image">';
+            break;
+        case 'version_2.0':
+            nameElement.innerText = 'MS-DOS 2.0';
+            descriptionElement.innerText = 'Lanzado en 1983, MS-DOS 2.0 se le introdujeron características propias de Unix, como el uso de subdirectorios, tuberías, redirección de entrada y salida de órdenes, así como soporte para discos duros y unidades de disquete de 360 KiB de capacidad puedes jugar poli station sin problemas';
+            imageElement.innerHTML = '<img src="images/version_2.0.png" alt="MS-DOS 2.0">';
+            break;
+        case 'version_2.1':
+            nameElement.innerText = 'MS-DOS 2.1';
+            descriptionElement.innerText = 'Esta versión mejoró la compatibilidad con el hardware IBM PCjr, fue lanzada en 1983 e implemento mejoras de compatibilidad';
+            imageElement.innerHTML = '<img src="images/version_2.1.png" alt="MS-DOS 2.1">';
+            break;
+        case 'version_2.11':
+            nameElement.innerText = 'MS-DOS 2.11';
+            descriptionElement.innerText = 'MS-DOS 2.11 introdujo mejoras en el soporte de impresoras y se añaden nuevos caracteres en el teclado, esta actualizacion se da en el mismo año de la version 2.0';
+            imageElement.innerHTML = '<img src="images/version_2.11.png" alt="MS-DOS 2.11">';
+            break;
+        case 'version_3.0':
+            nameElement.innerText = 'MS-DOS 3.0';
+            descriptionElement.innerText = 'En 1984, Microsoft lanzaria su versión 3.0 de MS-DOS, y es entonces cuando da soporte para discos de alta densidad de 1,2MB y posibilidad de instalar un disco duro con un maximo de 32MB.';
+            imageElement.innerHTML = '<img src="images/version_3.0.png" alt="MS-DOS 3.0">';
+            break;
+        case 'version_3.1':
+            nameElement.innerText = 'MS-DOS 3.1';
+            descriptionElement.innerText = 'MS-DOS 3.1 introdujo mejoras en las capacidades de redes IBM PC Networks y mejoras en el soporte de red, esta fue lanzada en el año 1985.';
+            imageElement.innerHTML = '<img src="images/version_3.1.png" alt="MS-DOS 3.1">';
+            break;
+        case 'version_3.2':
+            nameElement.innerText = 'MS-DOS 3.2';
+            descriptionElement.innerText = 'Lanzado en 1986, MS-DOS 3.2 ofreció soporte para disquetes de 3.5 pulgadas y mejoras en la gestión de disquetes';
+            imageElement.innerHTML = '<img src="images/version_3.2.png" alt="MS-DOS 3.2">';
+            break;
+        case 'version_3.3':
+            nameElement.innerText = 'MS-DOS 3.3';
+            descriptionElement.innerText = 'En 1984, Microsoft lanzó su versión 3.0 de MS-DOS, y es entonces cuando da soporte para discos de alta densidad de 1,2 MB y posibilidad de instalar un disco duro con un máximo de 32 MB.';
+            imageElement.innerHTML = '<img src="images/version_3.3.png" alt="MS-DOS 3.3">';
+            break;
+        case 'version_3.31':
+            nameElement.innerText = 'MS-DOS 3.31';
+            descriptionElement.innerText = 'Lanzada en 1987, MS-DOS 3.31 introdujo soporte para discos duros con más de 32 MB, Y mejoras en el soporte de red.';
+            imageElement.innerHTML = '<img src="images/version_3.31.png" alt="MS-DOS 3.31">';
+            break;
+        case 'version_4.0':
+            nameElement.innerText = 'MS-DOS 4.0';
+            descriptionElement.innerText = 'MS-DOS 4.0 introdujo soporte para discos duros más grandes y una interfaz gráfica básica, fue una versión multitarea de MS-DOS desarrollada por Microsoft basada en MS-DOS 2.0. La falta de interés de los OEM, en particular de IBM (que anteriormente proporcionó código multitarea a Microsoft en IBM PC DOS incluido con TopView), llevó a que se lanzara solo en una forma reducida. A veces se le conoce como MS-DOS 4.0 europeo, ya que se utilizó principalmente allí. No debe confundirse con PC DOS 4.00 o MS-DOS 4.01 y posteriores, que no contenían funciones multitarea.';
+            imageElement.innerHTML = '<img src="images/version_4.0.png" alt="MS-DOS 4.0">';
+            break;
+        case 'version_4.01':
+            nameElement.innerText = 'MS-DOS 4.01';
+            descriptionElement.innerText = 'MS-DOS 4.01 corrigió varios errores de la versión 4.0, y adicionó un soporte para particiones mayores de 32 MB, esta version salio el mismo año que la version 4.0.';
+            imageElement.innerHTML = '<img src="images/version_4.01.jpg" alt="MS-DOS 4.01">';
+            break;
+        case 'version_5.0':
+            nameElement.innerText = 'MS-DOS 5.0';
+            descriptionElement.innerText = 'MS-DOS 5.0 introdujo una interfaz de usuario mejorada y se presentó el 11 de junio de 1991, incluía nuevas características de administración de memoria y herramientas para soporte de macros y mejora del intérprete de comandos o shell.';
+            imageElement.innerHTML = '<img src="images/version_5.0.png" alt="MS-DOS 5.0">';
+            break;
+        case 'version_6.0':
+            nameElement.innerText = 'MS-DOS 6.0';
+            descriptionElement.innerText = 'MS-DOS 6.0, lanzada en 1993, ofreció nuevas herramientas como la compresión de disco y la gestión de memoria por medio de DoubleSpace, que prácticamente duplica la capacidad del disco duro, gracias a que comprime los archivos. Double Space también puede comprimir los datos de disquetes.';
+            imageElement.innerHTML = '<img src="images/version_6.0.png" alt="MS-DOS 6.0">';
+            break;
+        case 'version_6.2':
+            nameElement.innerText = 'MS-DOS 6.2';
+            descriptionElement.innerText = 'Esta versión introdujo mejoras en las utilidades de disco y mayor estabilidad en cuanto a las utilidades del sistema.';
+            imageElement.innerHTML = '<img src="images/version_6.2.png" alt="MS-DOS 6.2">';
+            break;
+        case 'version_6.21':
+            nameElement.innerText = 'MS-DOS 6.21';
+            descriptionElement.innerText = 'Lanzada en 1994, MS-DOS 6.21 se enfocó en la corrección de errores sin incluir nuevas funciones, esta versión se lanzó específicamente para eliminar DoubleSpace debido a una orden judicial. Su sustituto "DriveSpace" aún no estaba listo.';
+            imageElement.innerHTML = '<img src="images/version_6.21.jpg" alt="MS-DOS 6.21">';
+            break;
+        case 'version_6.22':
+            nameElement.innerText = 'MS-DOS 6.22';
+            descriptionElement.innerText = 'Microsoft DOS 6.22 fue la última versión independiente de Microsoft. También fue el último de Microsoft en ejecutarse en un 8088, 8086. 6.22 agrega DriveSpace, un reemplazo para la compresión de unidad DoubleSpace de DOS 6.20 que se eliminó en 6.21.';
+            imageElement.innerHTML = '<img src="images/version_6.22.png" alt="MS-DOS 6.22">';
+            break;
+        case 'version_7.0':
+            nameElement.innerText = 'MS-DOS 7.0';
+            descriptionElement.innerText = 'MS-DOS 7.0 fue una versión integrada en Windows 95, ofreciendo una mayor compatibilidad con el nuevo sistema operativo...';
+            imageElement.innerHTML = '<img src="images/version_7.0.png" alt="MS-DOS 7.0">';
+                break;
+        case 'version_7.1':
+            nameElement.innerText = 'MS-DOS 7.1';
+            descriptionElement.innerText = 'Esta versión fue parte de Windows 95 OSR2 y Windows 98, mejorando la compatibilidad con discos grandes...';
+            imageElement.innerHTML = '<img src="images/version_7.1.png" alt="MS-DOS 7.1">';
+            break;
+        case 'version_8.0':
+            nameElement.innerText = 'MS-DOS 8.0';
+            descriptionElement.innerText = 'MS-DOS 8.0 fue la última versión, incluida en Windows ME, y dejó de ser relevante con la llegada de Windows XP...';
+            imageElement.innerHTML = '<img src="images/version_8.0.png" alt="MS-DOS 8.0">';
+            break;
         case 'windows_11':
             nameElement.innerText = 'Windows 11';
             descriptionElement.innerText = 'Descripción de Windows 11.';
@@ -232,6 +337,6 @@ function loadContent(system) {
         default:
             nameElement.innerText = 'Nombre sistema operativo';
             descriptionElement.innerText = 'DESCRIPCIÓN DEL SISTEMA';
-            imageElement.innerText = 'imagen';
+            imageElement.innerHTML = 'imagen';
     }
 }

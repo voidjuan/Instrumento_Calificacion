@@ -33,7 +33,9 @@ body {
     background-color: #d78a8a;
     padding: 10px;
     width: 200px;
-    position: absolute;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
     left: -300px;
     top: 0;
     height: 100%;
@@ -46,6 +48,21 @@ body {
 .sidebar.open {
     left: 0;
 }
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: black;
+    padding: 10px;
+}
+
 div.boton{
     position: inherit;
 }
@@ -61,24 +78,13 @@ div.boton{
 }
 
 .image{
-    max-width: 50%;
-    height: auto;
+    max-width: 60%;
+    height: 400px;
     display: block;
     margin: 0 auto;
 }
 
-.sidebar a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 5px 0;
-    margin-bottom: 20px; 
-    cursor: pointer;
-}
 
-a:hover{
-    background-color: black;
-}
 
 .dropdown {
     display: none;
