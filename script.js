@@ -14,6 +14,7 @@ function loadContent(system) {
     const imageElement = document.getElementById('system-image');
 
     switch(system) {
+        // VERSIONES DE MAC
         case 'sonoma' :
             nameElement.innerText = 'Mac OS 14 Sonoma';
             descriptionElement.innerText = 'Es la vigésima versión principal de macOS, el sistema operativo de escritorio de Apple para ordenadores Mac. Es el sucesor de macOS Ventura y fue anunciado en la WWDC del 5 de junio de 2023 en Apple Park, Cupertino. Debe su nombre a la región vinícola situada en el condado californiano de Sonoma.';
@@ -159,6 +160,8 @@ function loadContent(system) {
             descriptionElement.innerText = 'La primera versión del sistema operativo para Macintosh, lanzada en 1984, que tenía escritorio, ventanas, iconos, menús y puntero de ratón. No existía la memoria virtual, por lo que no se podía trabajar en dos aplicaciones a la vez, y la papelera se vaciaba al reiniciar el ordenador. Tampoco permitía carpetas anidadas. System 1.1 añadió mejoras de velocidad y los cuadros de diálogo.';
             imageElement.innerHTML = '<img src="images/sistema_1.png" alt="Sistema 1" class="image">';
             break;
+
+        // VERSIONES DE MS-DOS
         case 'version_1.0':
             nameElement.innerText = 'MS-DOS 1.0';
             descriptionElement.innerText = 'La primera edición, MS-DOS 1.0, fue presentada en 1982. La versión incluida en los PCs de IBM fue conocida como PC DOS. Soporta 16 KiB de memoria RAM, disquetes de 5,25 pulgadas de una sola cara de 160 KiB. 22 órdenes. Permite archivos con extensión .com y .exe. Incorpora el intérprete de órdenes COMMAND.COM';
@@ -251,88 +254,229 @@ function loadContent(system) {
             break;
         case 'version_7.0':
             nameElement.innerText = 'MS-DOS 7.0';
-            descriptionElement.innerText = 'MS-DOS 7.0 fue una versión integrada en Windows 95, ofreciendo una mayor compatibilidad con el nuevo sistema operativo...';
+            descriptionElement.innerText = 'MS-DOS 7 es un sistema operativo en modo real que nunca fue lanzado por separado por su creador Microsoft, sino que se incluyó en la familia de sistemas operativos Windows 9x. Windows 95 RTM informa que es MS-DOS 7.0, mientras que Windows 95 OSR2, Windows 95 OSR2.5, Windows 98 y Windows 98SE informan como 7.1.';
             imageElement.innerHTML = '<img src="images/version_7.0.png" alt="MS-DOS 7.0">';
                 break;
         case 'version_7.1':
             nameElement.innerText = 'MS-DOS 7.1';
-            descriptionElement.innerText = 'Esta versión fue parte de Windows 95 OSR2 y Windows 98, mejorando la compatibilidad con discos grandes...';
+            descriptionElement.innerText = 'se utilizó por primera vez en Windows 95 OSR2 y se actualizó con direccionamiento de bloques lógicos para discos duros grandes y compatibilidad con FAT32. Su comando DIR también cumple con el año 2000 con el parámetro "/4". Su comando XCOPY también genera exclusivamente en Unicode, algo que no se puede mostrar en DOS puro sin Windows, y se le cambió el nombre a XCopy32.mod, con XCopy.exe y XCopy32.exe simplemente redireccionando a XCopy32.mod';
             imageElement.innerHTML = '<img src="images/version_7.1.png" alt="MS-DOS 7.1">';
             break;
         case 'version_8.0':
             nameElement.innerText = 'MS-DOS 8.0';
-            descriptionElement.innerText = 'MS-DOS 8.0 fue la última versión, incluida en Windows ME, y dejó de ser relevante con la llegada de Windows XP...';
+            descriptionElement.innerText = 'MS-DOS 8.0 fue la última versión, incluida en Windows ME, y dejó de ser relevante con la llegada de Windows XP, Desde el lanzamiento de Windows 95 hasta Windows NT, MS-DOS se agregó como un producto completo utilizado para el arranque, para solucionar problemas y tener compatibilidad con antiguos juegos DOS.';
             imageElement.innerHTML = '<img src="images/version_8.0.png" alt="MS-DOS 8.0">';
             break;
-        case 'windows_11':
-            nameElement.innerText = 'Windows 11';
-            descriptionElement.innerText = 'Descripción de Windows 11.';
-            imageElement.innerText = 'Imagen de Windows 11';
+
+        // VERSIONES DE WINDOWS HOGAR
+        case 'windows_11_home':
+            nameElement.innerText = 'Windows 11 Home';
+            descriptionElement.innerText = 'La versión más reciente de Windows, lanzada en 2021, con nuevas características y una interfaz moderna...';
+            imageElement.innerHTML = '<img src="images/windows_11_home.png" alt="Windows 11 Home">';
             break;
-        case 'windows_10':
-            nameElement.innerText = 'Windows 10';
-            descriptionElement.innerText = 'es un sistema operativo desarrollado por Microsoft como parte de la familia de sistemas operativos Windows NT.7 Fue dado a conocer oficialmente en septiembre de 2014, seguido por una breve presentación de demostración en la conferencia Build 2014. Entró en fase beta de prueba en octubre de 2014 y fue lanzado al público en general el 29 de julio de 2015.';
-            imageElement.innerHTML = '<img src="images/images.jpg" alt="Windows 10" style="max-width: 100%;">';
+        case 'windows_10_home':
+            nameElement.innerText = 'Windows 10 Home';
+            descriptionElement.innerText = 'Lanzado en 2015, Windows 10 Home fue diseñado para brindar una experiencia de usuario familiar y productiva...';
+            imageElement.innerHTML = '<img src="images/windows_10_home.png" alt="Windows 10 Home">';
+            break;
+        case 'windows_8.1':
+            nameElement.innerText = 'Windows 8.1';
+            descriptionElement.innerText = 'Windows 8.1, lanzado en 2013, mejoró la interfaz de usuario de Windows 8 con más opciones de personalización...';
+            imageElement.innerHTML = '<img src="images/windows_8.1.png" alt="Windows 8.1">';
             break;
         case 'windows_8':
             nameElement.innerText = 'Windows 8';
-            descriptionElement.innerText = 'Descripción de Windows 8.';
-            imageElement.innerText = 'Imagen de Windows 8';
+            descriptionElement.innerText = 'Lanzado en 2012, Windows 8 introdujo una nueva interfaz de usuario optimizada para pantallas táctiles...';
+            imageElement.innerHTML = '<img src="images/windows_8.png" alt="Windows 8">';
             break;
-        case 'vista':
-            nameElement.innerText = 'Windows Vista';
-            descriptionElement.innerText = 'Descripción de Windows Vista.';
-            imageElement.innerText = 'Imagen de Windows Vista';
+        case 'vista_home':
+            nameElement.innerText = 'Windows Vista Home';
+            descriptionElement.innerText = 'Windows Vista, lanzado en 2007, introdujo un diseño gráfico renovado con la interfaz Aero...';
+            imageElement.innerHTML = '<img src="images/vista_home.png" alt="Windows Vista Home">';
             break;
-        case 'xp':
-            nameElement.innerText = 'Windows XP';
-            descriptionElement.innerText = 'Descripción de Windows XP.';
-            imageElement.innerText = 'Imagen de Windows XP';
+        case 'xp_home':
+            nameElement.innerText = 'Windows XP Home';
+            descriptionElement.innerText = 'Windows XP Home, lanzado en 2001, fue una de las versiones más populares de Windows, conocida por su estabilidad y facilidad de uso...';
+            imageElement.innerHTML = '<img src="images/xp_home.png" alt="Windows XP Home">';
+            break;
+        case 'windows_me':
+            nameElement.innerText = 'Windows ME';
+            descriptionElement.innerText = 'Lanzado en 2000, Windows ME fue la última versión de la línea Windows 9x, con características centradas en el hogar y multimedia...';
+            imageElement.innerHTML = '<img src="images/windows_me.png" alt="Windows ME">';
+            break;
+        case 'windows_98_se':
+            nameElement.innerText = 'Windows 98 SE';
+            descriptionElement.innerText = 'Windows 98 Second Edition mejoró la conectividad a internet y la compatibilidad de hardware respecto a la primera versión...';
+            imageElement.innerHTML = '<img src="images/windows_98_se.png" alt="Windows 98 SE">';
             break;
         case 'windows_98':
             nameElement.innerText = 'Windows 98';
-            descriptionElement.innerText = 'Descripción de Windows 98.';
-            imageElement.innerText = 'Imagen de Windows 98';
+            descriptionElement.innerText = 'Windows 98, lanzado en 1998, fue una mejora sobre Windows 95, con un mejor soporte de hardware y la introducción de características como la barra de tareas rápida...';
+            imageElement.innerHTML = '<img src="images/windows_98.png" alt="Windows 98">';
             break;
         case 'windows_95':
             nameElement.innerText = 'Windows 95';
-            descriptionElement.innerText = 'Descripción de Windows 95.';
-            imageElement.innerText = 'Imagen de Windows 95';
+            descriptionElement.innerText = 'Windows 95, lanzado en 1995, fue un hito en la historia de la informática, introduciendo una interfaz gráfica de usuario revolucionaria...';
+            imageElement.innerHTML = '<img src="images/windows_95.png" alt="Windows 95">';
             break;
-        case 'win_11_ent':
+        case 'windows_3.11':
+            nameElement.innerText = 'Windows 3.11';
+            descriptionElement.innerText = 'Windows 3.11, lanzado en 1993, mejoró la estabilidad y las capacidades de red de su predecesor, Windows 3.1...';
+            imageElement.innerHTML = '<img src="images/windows_3.11.png" alt="Windows 3.11">';
+            break;
+        case 'windows_3.1':
+            nameElement.innerText = 'Windows 3.1';
+            descriptionElement.innerText = 'Lanzado en 1992, Windows 3.1 introdujo mejoras en la interfaz gráfica de usuario y nuevas fuentes TrueType...';
+            imageElement.innerHTML = '<img src="images/windows_3.1.png" alt="Windows 3.1">';
+            break;
+        case 'windows_3.0':
+            nameElement.innerText = 'Windows 3.0';
+            descriptionElement.innerText = 'Windows 3.0, lanzado en 1990, fue el primer gran éxito comercial de Microsoft, estableciendo a Windows como una plataforma popular para PCs...';
+            imageElement.innerHTML = '<img src="images/windows_3.0.png" alt="Windows 3.0">';
+            break;
+        case 'windows_2.1':
+            nameElement.innerText = 'Windows 2.1';
+            descriptionElement.innerText = 'Lanzado en 1988, Windows 2.1 mejoró el soporte para el procesador 386, permitiendo que múltiples aplicaciones DOS se ejecutaran simultáneamente...';
+            imageElement.innerHTML = '<img src="images/windows_2.1.png" alt="Windows 2.1">';
+            break;
+        case 'windows_2.0':
+            nameElement.innerText = 'Windows 2.0';
+            descriptionElement.innerText = 'Windows 2.0, lanzado en 1987, introdujo la posibilidad de superponer ventanas y otras mejoras gráficas...';
+            imageElement.innerHTML = '<img src="images/windows_2.0.png" alt="Windows 2.0">';
+            break;
+        case 'windows_1.0':
+            nameElement.innerText = 'Windows 1.0';
+            descriptionElement.innerText = 'Lanzado en 1985, Windows 1.0 fue la primera versión de Windows, ofreciendo una interfaz gráfica que funcionaba sobre MS-DOS...';
+            imageElement.innerHTML = '<img src="images/windows_1.0.png" alt="Windows 1.0">';
+            break;
+
+        // VERSIONES DE WINDOWS EMPRESA.
+        case 'windows_11_enterprise':
             nameElement.innerText = 'Windows 11 Enterprise';
-            descriptionElement.innerText = 'Descripción de Windows 11 Enterprise.';
-            imageElement.innerText = 'Imagen de Windows 11 Enterprise';
+            descriptionElement.innerText = 'La versión Enterprise de Windows 11 ofrece características avanzadas de seguridad y gestión para grandes organizaciones...';
+            imageElement.innerHTML = '<img src="images/windows_11_enterprise.png" alt="Windows 11 Enterprise">';
             break;
-        case 'win_10_pro':
+        case 'windows_11_pro':
+            nameElement.innerText = 'Windows 11 Pro';
+            descriptionElement.innerText = 'Windows 11 Pro está diseñado para usuarios avanzados y pequeñas empresas, con características adicionales de seguridad y gestión...';
+            imageElement.innerHTML = '<img src="images/windows_11_pro.png" alt="Windows 11 Pro">';
+            break;
+        case 'windows_10_enterprise':
+            nameElement.innerText = 'Windows 10 Enterprise';
+            descriptionElement.innerText = 'Lanzado en 2015, Windows 10 Enterprise ofrece características de seguridad y administración diseñadas para organizaciones de gran escala...';
+            imageElement.innerHTML = '<img src="images/windows_10_enterprise.png" alt="Windows 10 Enterprise">';
+            break;
+        case 'windows_10_pro':
             nameElement.innerText = 'Windows 10 Pro';
-            descriptionElement.innerText = 'Descripción de Windows 10 Pro.';
-            imageElement.innerText = 'Imagen de Windows 10 Pro';
+            descriptionElement.innerText = 'Windows 10 Pro ofrece características avanzadas como BitLocker, Escritorio Remoto y unión a dominios, ideal para empresas pequeñas...';
+            imageElement.innerHTML = '<img src="images/windows_10_pro.png" alt="Windows 10 Pro">';
             break;
-        case 'win_8_pro':
+        case 'windows_8.1_pro':
+            nameElement.innerText = 'Windows 8.1 Pro';
+            descriptionElement.innerText = 'Lanzado en 2013, Windows 8.1 Pro incluye herramientas empresariales como cifrado de disco, y soporte para redes empresariales...';
+            imageElement.innerHTML = '<img src="images/windows_8.1_pro.png" alt="Windows 8.1 Pro">';
+            break;
+        case 'windows_8_pro':
             nameElement.innerText = 'Windows 8 Pro';
-            descriptionElement.innerText = 'Descripción de Windows 8 Pro.';
-            imageElement.innerText = 'Imagen de Windows 8 Pro';
+            descriptionElement.innerText = 'Windows 8 Pro, lanzado en 2012, está diseñado para usuarios avanzados, con funciones adicionales de seguridad y red...';
+            imageElement.innerHTML = '<img src="images/windows_8_pro.png" alt="Windows 8 Pro">';
             break;
-        case 'win_7_pro':
+        case 'windows_7_professional':
             nameElement.innerText = 'Windows 7 Professional';
-            descriptionElement.innerText = 'Descripción de Windows 7 Professional.';
-            imageElement.innerText = 'Imagen de Windows 7 Professional';
+            descriptionElement.innerText = 'Windows 7 Professional, lanzado en 2009, es ideal para pequeñas empresas y usuarios avanzados, con capacidades de red y seguridad mejoradas...';
+            imageElement.innerHTML = '<img src="images/windows_7_professional.png" alt="Windows 7 Professional">';
             break;
-        case 'vista_bus':
+        case 'windows_vista_business':
             nameElement.innerText = 'Windows Vista Business';
-            descriptionElement.innerText = 'Descripción de Windows Vista Business.';
-            imageElement.innerText = 'Imagen de Windows Vista Business';
+            descriptionElement.innerText = 'Windows Vista Business, lanzado en 2007, ofrece características orientadas a la productividad empresarial, como el soporte mejorado para redes...';
+            imageElement.innerHTML = '<img src="images/windows_vista_business.png" alt="Windows Vista Business">';
             break;
-        case 'xp_pro':
+        case 'windows_xp_professional':
             nameElement.innerText = 'Windows XP Professional';
-            descriptionElement.innerText = 'Descripción de Windows XP Professional.';
-            imageElement.innerText = 'Imagen de Windows XP Professional';
+            descriptionElement.innerText = 'Lanzado en 2001, Windows XP Professional fue diseñado para usuarios empresariales, con características de seguridad y red avanzadas...';
+            imageElement.innerHTML = '<img src="images/windows_xp_professional.png" alt="Windows XP Professional">';
             break;
-        case 'win_2000':
+        case 'windows_2000':
             nameElement.innerText = 'Windows 2000';
-            descriptionElement.innerText = 'Descripción de Windows 2000.';
-            imageElement.innerText = 'Imagen de Windows 2000';
+            descriptionElement.innerText = 'Windows 2000, lanzado en 2000, es un sistema operativo empresarial que combina las características de Windows NT con la facilidad de uso de Windows 98...';
+            imageElement.innerHTML = '<img src="images/windows_2000.png" alt="Windows 2000">';
+            break;
+        case 'windows_nt_4.0':
+            nameElement.innerText = 'Windows NT 4.0';
+            descriptionElement.innerText = 'Lanzado en 1996, Windows NT 4.0 trajo la interfaz de Windows 95 al entorno seguro de Windows NT, orientado a servidores y estaciones de trabajo...';
+            imageElement.innerHTML = '<img src="images/windows_nt_4.0.png" alt="Windows NT 4.0">';
+            break;
+        case 'windows_nt_3.51':
+            nameElement.innerText = 'Windows NT 3.51';
+            descriptionElement.innerText = 'Windows NT 3.51, lanzado en 1995, mejoró la compatibilidad con aplicaciones Windows 95 mientras mantenía la robustez de Windows NT...';
+            imageElement.innerHTML = '<img src="images/windows_nt_3.51.png" alt="Windows NT 3.51">';
+            break;
+        case 'windows_nt_3.5':
+            nameElement.innerText = 'Windows NT 3.5';
+            descriptionElement.innerText = 'Lanzado en 1994, Windows NT 3.5 mejoró el rendimiento y la estabilidad en comparación con su predecesor, Windows NT 3.1...';
+            imageElement.innerHTML = '<img src="images/windows_nt_3.5.png" alt="Windows NT 3.5">';
+            break;
+        case 'windows_nt_3.1':
+            nameElement.innerText = 'Windows NT 3.1';
+            descriptionElement.innerText = 'Windows NT 3.1, lanzado en 1993, fue la primera versión de la línea NT, diseñada para entornos empresariales con alta seguridad y estabilidad...';
+            imageElement.innerHTML = '<img src="images/windows_nt_3.1.png" alt="Windows NT 3.1">';
+            break;
+
+        // VERSIONES DE WINDOWS SERVER
+        case 'win_server_2022':
+            nameElement.innerText = 'Windows Server 2022';
+            descriptionElement.innerText = 'Windows Server 2022 es la última versión del sistema operativo de servidor de Microsoft, lanzada en 2021 con características avanzadas de seguridad y soporte para la nube híbrida...';
+            imageElement.innerHTML = '<img src="images/win_server_2022.png" alt="Windows Server 2022">';
+            break;
+        case 'win_server_2019':
+            nameElement.innerText = 'Windows Server 2019';
+            descriptionElement.innerText = 'Windows Server 2019, lanzado en 2018, se enfoca en la integración con Azure, la seguridad mejorada y el soporte para contenedores...';
+            imageElement.innerHTML = '<img src="images/win_server_2019.png" alt="Windows Server 2019">';
+            break;
+        case 'win_server_2016':
+            nameElement.innerText = 'Windows Server 2016';
+            descriptionElement.innerText = 'Lanzado en 2016, Windows Server 2016 introdujo características como Nano Server, Windows Containers y mejoras en la seguridad...';
+            imageElement.innerHTML = '<img src="images/win_server_2016.png" alt="Windows Server 2016">';
+            break;
+        case 'win_server_2012':
+            nameElement.innerText = 'Windows Server 2012';
+            descriptionElement.innerText = 'Windows Server 2012, también conocido como "Windows Server 8", fue lanzado en 2012 con un enfoque en la virtualización y la gestión de servidores...';
+            imageElement.innerHTML = '<img src="images/win_server_2012.png" alt="Windows Server 2012">';
+            break;
+        case 'win_server_2008':
+            nameElement.innerText = 'Windows Server 2008';
+            descriptionElement.innerText = 'Windows Server 2008 fue lanzado en 2008, con mejoras en la virtualización, el sistema de archivos y la administración remota...';
+            imageElement.innerHTML = '<img src="images/win_server_2008.png" alt="Windows Server 2008">';
+            break;
+        case 'win_server_2003':
+            nameElement.innerText = 'Windows Server 2003';
+            descriptionElement.innerText = 'Windows Server 2003, lanzado en 2003, ofrecía mejoras en la seguridad y la administración de red, siendo un sistema operativo ampliamente adoptado por las empresas...';
+            imageElement.innerHTML = '<img src="images/win_server_2003.png" alt="Windows Server 2003">';
+            break;
+        case 'win_2000_server_5.0':
+            nameElement.innerText = 'Windows 2000 Server 5.0';
+            descriptionElement.innerText = 'Windows 2000 Server, también conocido como Windows NT 5.0, fue lanzado en 2000 y ofreció un entorno de red más estable y seguro...';
+            imageElement.innerHTML = '<img src="images/win_2000_server_5.0.png" alt="Windows 2000 Server 5.0">';
+            break;
+        case 'win_nt_server_4.0':
+            nameElement.innerText = 'Windows NT Server 4.0';
+            descriptionElement.innerText = 'Windows NT 4.0 Server, lanzado en 1996, trajo la interfaz gráfica de Windows 95 al entorno de servidor NT, con mejoras en la gestión y la estabilidad...';
+            imageElement.innerHTML = '<img src="images/win_nt_server_4.0.png" alt="Windows NT Server 4.0">';
+            break;
+        case 'win_nt_server_3.51':
+            nameElement.innerText = 'Windows NT Server 3.51';
+            descriptionElement.innerText = 'Windows NT 3.51 Server, lanzado en 1995, mejoró la compatibilidad con aplicaciones de Windows 95, manteniendo la seguridad y estabilidad de NT...';
+            imageElement.innerHTML = '<img src="images/win_nt_server_3.51.png" alt="Windows NT Server 3.51">';
+            break;
+        case 'win_nt_server_3.5':
+            nameElement.innerText = 'Windows NT Server 3.5';
+            descriptionElement.innerText = 'Lanzado en 1994, Windows NT 3.5 Server ofrecía un entorno de servidor más rápido y estable, con mejor soporte para redes...';
+            imageElement.innerHTML = '<img src="images/win_nt_server_3.5.png" alt="Windows NT Server 3.5">';
+            break;
+        case 'win_nt_server_3.1':
+            nameElement.innerText = 'Windows NT Server 3.1';
+            descriptionElement.innerText = 'Windows NT 3.1 Server, lanzado en 1993, fue la primera versión de NT orientada a servidores, ofreciendo un entorno robusto y seguro para empresas...';
+            imageElement.innerHTML = '<img src="images/win_nt_server_3.1.png" alt="Windows NT Server 3.1">';
             break;
         default:
             nameElement.innerText = 'Nombre sistema operativo';
