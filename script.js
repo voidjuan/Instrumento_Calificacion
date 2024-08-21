@@ -271,82 +271,82 @@ function loadContent(system) {
         // VERSIONES DE WINDOWS HOGAR
         case 'windows_11_home':
             nameElement.innerText = 'Windows 11 Home';
-            descriptionElement.innerText = 'La versión más reciente de Windows, lanzada en 2021, con nuevas características y una interfaz moderna...';
-            imageElement.innerHTML = '<img src="images/windows_11_home.png" alt="Windows 11 Home">';
+            descriptionElement.innerText = 'La versión Home de Windows siempre ha estado enfocada para el uso doméstico, por lo que sus funciones siempre eran las más básicas. También es cierto que Microsoft lo compensaba con un precio más interesante para atraer a familias y usuarios menos exigentes.';
+            imageElement.innerHTML = '<img src="images/windows_11_home.jpg" alt="Windows 11 Home">';
             break;
         case 'windows_10_home':
             nameElement.innerText = 'Windows 10 Home';
-            descriptionElement.innerText = 'Lanzado en 2015, Windows 10 Home fue diseñado para brindar una experiencia de usuario familiar y productiva...';
-            imageElement.innerHTML = '<img src="images/windows_10_home.png" alt="Windows 10 Home">';
+            descriptionElement.innerText = 'Lanzado en 2015, es la versión estándar de Windows 10, el paquete básico diseñado para el usuario general que usa principalmente Windows en casa. Esta versión incluye todas las funciones dirigidas al amplio mercado de consumo, como el asistente de voz Cortana, Outlook, Microsoft Edge y OneNote.';
+            imageElement.innerHTML = '<img src="images/windows_10_home.jpg" alt="Windows 10 Home">';
             break;
         case 'windows_8.1':
             nameElement.innerText = 'Windows 8.1';
-            descriptionElement.innerText = 'Windows 8.1, lanzado en 2013, mejoró la interfaz de usuario de Windows 8 con más opciones de personalización...';
+            descriptionElement.innerText = 'Es una versión descontinuada de Microsoft Windows, línea de sistemas operativos desarrollada por Microsoft, que fue usada en computadoras personales, incluidas computadoras de escritorio en casa y de negocios, computadoras portátiles, netbooks, tabletas, servidores y centros multimedia, una actualización y migración gratuita del sistema operativo Windows 8. Este proyecto fue un cambio con respecto a la política tradicional de actualizaciones de Microsoft, que originalmente consistía en lanzamientos regulares de «Service Packs» cada 2 años aproximadamente, ya que fue una actualización mayor que introdujo varias mejoras en todas las plataformas de Microsoft incluyendo Windows 8 y Windows Phone 8.';
             imageElement.innerHTML = '<img src="images/windows_8.1.png" alt="Windows 8.1">';
             break;
         case 'windows_8':
             nameElement.innerText = 'Windows 8';
-            descriptionElement.innerText = 'Lanzado en 2012, Windows 8 introdujo una nueva interfaz de usuario optimizada para pantallas táctiles...';
-            imageElement.innerHTML = '<img src="images/windows_8.png" alt="Windows 8">';
+            descriptionElement.innerText = 'Lanzado en 2012, Windows 8 está diseñado para que configures tu computador por medio de una cuenta Microsoft, lo que permite enlazar tu PC a diferentes servicios como lo son Outlook, Xboxlive, Windows Store, SkyDrive y otros. Además cuenta con la Tienda Windows. Desde allí podrás descargar aplicaciones pagas o gratuitas para tu equipo.';
+            imageElement.innerHTML = '<img src="images/windows_8.jpg" alt="Windows 8">';
             break;
         case 'vista_home':
             nameElement.innerText = 'Windows Vista Home';
-            descriptionElement.innerText = 'Windows Vista, lanzado en 2007, introdujo un diseño gráfico renovado con la interfaz Aero...';
+            descriptionElement.innerText = 'Windows Vista, fue una edición del sistema operativo Windows Vista lanzada por Microsoft en 2007. Esta versión estaba diseñada para usuarios domésticos con necesidades básicas de computación, ya que ofrecía características limitadas en comparación con otras ediciones de Windows Vista. Algunas de las características de Windows Vista Home Basic incluían una interfaz de usuario renovada, Windows Defender para protección contra malware, Windows Firewall para seguridad en línea, Windows Media Player 11 para reproducción de medios, y capacidades de red limitadas. Es importante destacar que Windows Vista Home Basic ya no recibe soporte oficial de Microsoft desde abril de 2017, por lo que no se recomienda su uso en sistemas actuales debido a posibles problemas de seguridad y compatibilidad con software más reciente. Se recomienda actualizar a una versión más reciente de Windows o considerar otras alternativas de sistemas operativos.';
             imageElement.innerHTML = '<img src="images/vista_home.png" alt="Windows Vista Home">';
             break;
         case 'xp_home':
             nameElement.innerText = 'Windows XP Home';
-            descriptionElement.innerText = 'Windows XP Home, lanzado en 2001, fue una de las versiones más populares de Windows, conocida por su estabilidad y facilidad de uso...';
-            imageElement.innerHTML = '<img src="images/xp_home.png" alt="Windows XP Home">';
+            descriptionElement.innerText = 'Windows XP Home, lanzado en 2001, fue una de las versiones más populares de Windows, esta ofrece un conjunto de nuevascaracterísticas que ayudan a trabajar de manera más inteligente, conectarse másrápido a Internet y con otros usuarios.  Protección de archivos de Windows. Impide que las aplicaciones cambien accidentalmente los archivos importantes del sistema operativo. De esta manera, el sistema se protege de forma activa y automática. Arquitectura de modo de núcleo protegido. Las aplicaciones no tienen acceso al núcleo del código de software en que se basa el sistema operativo. De esta manera, aumenta significativamente la fiabilidad del sistema.';
+            imageElement.innerHTML = '<img src="images/xp_home.jpg" alt="Windows XP Home">';
             break;
         case 'windows_me':
             nameElement.innerText = 'Windows ME';
-            descriptionElement.innerText = 'Lanzado en 2000, Windows ME fue la última versión de la línea Windows 9x, con características centradas en el hogar y multimedia...';
-            imageElement.innerHTML = '<img src="images/windows_me.png" alt="Windows ME">';
+            descriptionElement.innerText = 'Lanzado en 2000, Windows ME permite que su PC tenga un más fácil funcionamiento y que sea divertido. Windows Me le da el poder de poner en red a sus computadoras caseras, comunicarse mas eficientemente por Internet y trabajar con rico contenido multimedia, como es el caso de fotografías, videos y música.';
+            imageElement.innerHTML = '<img src="images/windows_me.jpg" alt="Windows ME">';
             break;
         case 'windows_98_se':
             nameElement.innerText = 'Windows 98 SE';
-            descriptionElement.innerText = 'Windows 98 Second Edition mejoró la conectividad a internet y la compatibilidad de hardware respecto a la primera versión...';
-            imageElement.innerHTML = '<img src="images/windows_98_se.png" alt="Windows 98 SE">';
+            descriptionElement.innerText = 'Fue una actualización de Windows 98, publicada el 5 de mayo de 1999. Incluyó correcciones para muchos problemas menores, un soporte USB mejorado, y el reemplazo de Internet Explorer 4.0 con el considerablemente más rápido Internet Explorer 5 en su tiempo.';
+            imageElement.innerHTML = '<img src="images/windows_98_se.jpg" alt="Windows 98 SE">';
             break;
         case 'windows_98':
             nameElement.innerText = 'Windows 98';
-            descriptionElement.innerText = 'Windows 98, lanzado en 1998, fue una mejora sobre Windows 95, con un mejor soporte de hardware y la introducción de características como la barra de tareas rápida...';
-            imageElement.innerHTML = '<img src="images/windows_98.png" alt="Windows 98">';
+            descriptionElement.innerText = 'Windows 98, fue lanzada el 25 de junio de 1998. Se trataba de un sistema híbrido de 16bits y 32bits, pero presentó una serie de mejoras, tales como soporte mejorado para FAT32, soporte mejorado para AGP, soporte mejorado para USB, soporte para FireWire y soporte para ACPI. En esta primera versión se mantuvo el IE 4.0 como parte integrante de la interfaz del explorador de Windows (Active Desktop).';
+            imageElement.innerHTML = '<img src="images/windows_98.jpg" alt="Windows 98">';
             break;
         case 'windows_95':
             nameElement.innerText = 'Windows 95';
-            descriptionElement.innerText = 'Windows 95, lanzado en 1995, fue un hito en la historia de la informática, introduciendo una interfaz gráfica de usuario revolucionaria...';
-            imageElement.innerHTML = '<img src="images/windows_95.png" alt="Windows 95">';
+            descriptionElement.innerText = 'Windows 95, es un sistema operativo descontinuado y obsoleto con interfaz gráfica de usuario híbrido de entre 16 y 32 bits. Fue lanzado al mercado el 24 de agosto de 1995 por la empresa de software Microsoft con notable éxito de ventas. Durante su desarrollo se conoció como Windows 4 o por el nombre clave Chicago';
+            imageElement.innerHTML = '<img src="images/windows_95.jpg" alt="Windows 95">';
             break;
         case 'windows_3.11':
             nameElement.innerText = 'Windows 3.11';
-            descriptionElement.innerText = 'Windows 3.11, lanzado en 1993, mejoró la estabilidad y las capacidades de red de su predecesor, Windows 3.1...';
+            descriptionElement.innerText = 'Windows 3.11, fue lanzado el 11 de agosto de 1993, y enviado en noviembre de ese año. Es compatible con accesos a archivos de 32 bits, completos de 32 bits redirectores de red y el archivo VCACHE. 386 compartido entre ellos.';
             imageElement.innerHTML = '<img src="images/windows_3.11.png" alt="Windows 3.11">';
             break;
         case 'windows_3.1':
             nameElement.innerText = 'Windows 3.1';
-            descriptionElement.innerText = 'Lanzado en 1992, Windows 3.1 introdujo mejoras en la interfaz gráfica de usuario y nuevas fuentes TrueType...';
-            imageElement.innerHTML = '<img src="images/windows_3.1.png" alt="Windows 3.1">';
+            descriptionElement.innerText = 'Lanzado en 1992, Windows 3.1 fue la primera versión de Windows distribuida en CD-ROM (aunque esto fue más común para Windows Workgroup 3.11, que vino generalmente con DOS 6.22 en un disco), además de disquetes de 720, 1200, y 1440 kibibytes. El tamaño ocupado luego de instalado en el disco duro fue de entre 10~15 MB.';
+            imageElement.innerHTML = '<img src="images/windows_3.1.jpg" alt="Windows 3.1">';
             break;
         case 'windows_3.0':
             nameElement.innerText = 'Windows 3.0';
-            descriptionElement.innerText = 'Windows 3.0, lanzado en 1990, fue el primer gran éxito comercial de Microsoft, estableciendo a Windows como una plataforma popular para PCs...';
-            imageElement.innerHTML = '<img src="images/windows_3.0.png" alt="Windows 3.0">';
+            descriptionElement.innerText = 'Windows 3.0, lanzado en 1990, es la versión del entorno operativo creado por Microsoft y lanzado el 22 de mayo de 1990. Esta se convirtió en la primera versión exitosa de Microsoft Windows, y un rival para el Apple Macintosh y la Commodore Amiga. Fue sucedido por Windows 3.1x en 1992.';
+            imageElement.innerHTML = '<img src="images/windows_3.0.jpg" alt="Windows 3.0">';
             break;
         case 'windows_2.1':
             nameElement.innerText = 'Windows 2.1';
-            descriptionElement.innerText = 'Lanzado en 1988, Windows 2.1 mejoró el soporte para el procesador 386, permitiendo que múltiples aplicaciones DOS se ejecutaran simultáneamente...';
+            descriptionElement.innerText = 'Lanzado en 1988, Windows 2.1 pertenece a la familia de Microsoft Windows, es un sistema operativo obsoleto basado en una interfaz gráfica de usuario. A menos de un año después de lanzamiento de Windows 2.0, Windows/286 2.10 y Windows/386 2.10 se lanzaron el 27 de mayo de 1988. Estas versiones pueden aprovecharse de las características específicas de los procesadores Intel 80286 e Intel 80386';
             imageElement.innerHTML = '<img src="images/windows_2.1.png" alt="Windows 2.1">';
             break;
         case 'windows_2.0':
             nameElement.innerText = 'Windows 2.0';
-            descriptionElement.innerText = 'Windows 2.0, lanzado en 1987, introdujo la posibilidad de superponer ventanas y otras mejoras gráficas...';
-            imageElement.innerHTML = '<img src="images/windows_2.0.png" alt="Windows 2.0">';
+            descriptionElement.innerText = 'Windows 2.0, más exactamente Windows 2.03, es una versión del entorno operativo obsoleto creado por Microsoft con una interfaz gráfica de usuario de 16 bits, que fue lanzado el 9 de diciembre de 1987 y es el sucesor de Microsoft Windows 1.0. Microsoft Windows 2.0 fue continuado con las posteriores ediciones 2.1x , más conocidas como Microsoft Windows/286 y Microsoft Windows/386, extendidas para los procesadores 80286 y 80386, quienes a su vez fueron reemplazados por Microsoft Windows 3.0 en mayo de 1990; no obstante, Windows 2.0 recibió actualizaciones y soporte por parte de Microsoft durante catorce años hasta el 31 de diciembre de 2001, cuando dejó de recibir soporte técnico.';
+            imageElement.innerHTML = '<img src="images/windows_2.0.jpg" alt="Windows 2.0">';
             break;
         case 'windows_1.0':
             nameElement.innerText = 'Windows 1.0';
-            descriptionElement.innerText = 'Lanzado en 1985, Windows 1.0 fue la primera versión de Windows, ofreciendo una interfaz gráfica que funcionaba sobre MS-DOS...';
+            descriptionElement.innerText = 'es el primer sistema operativo de la familia Windows, desarrollado por Microsoft y lanzado el 20 de noviembre de 1985 en Estados Unidos, y un año después, en mayo de 1986, en Europa. Fue el primer intento de Microsoft de implementar un ambiente operativo multitarea con interfaz de usuario gráfica en la plataforma de PC. Windows 1.01 fue la primera versión de este producto. Costaba 99 dólares y requería una computadora que tuviera un mínimo de 256 KB de memoria RAM, una tarjeta gráfica CGA y una unidad de disquete (para instalar en disquete, se requerían dos unidades).';
             imageElement.innerHTML = '<img src="images/windows_1.0.png" alt="Windows 1.0">';
             break;
 
